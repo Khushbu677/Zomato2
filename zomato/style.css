@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+*{
+    
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+   
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+#navbar{
+  margin-left: 60vw;
+  display: flex;
+  
+}
+
+.nav{
+   color: white; 
+    font-size: 1.2rem;
+    text-decoration: none; 
+    padding: 20px;
+}
+.zomato{
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 35rem;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.zomatologo{
+    margin-left: 40%;
+    margin-top: 10%;
+    
+}
+
+.find{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#popular{
+    text-align: center;
+    font-size: 2rem;
+}
+
+#para{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 20px;
+    color: rgb(105, 105, 105);
+}
+
+.btn{
+    color: black;
+    border: none;
+    padding: 20px 20px 20px 20px;
+    font-size: 1.1rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    background-color: white;
+    height: 4rem;
+    width: 22rem;
+    
+    text-align: left;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+    border: 1px solid rgb(232, 232, 232);
+}
+
+
+.placesbtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.restaur{
+    text-decoration: none;
+    color: black;
+}
+
+.div1{
+    margin-right: 40px;
+}
+
+.three{
+    display: flex;
+    justify-content: center;
+}
+
+.row1{
+    margin: 3.5rem 0.5rem 0.5rem 0.5rem ;
+}
+
+.row2{
+    margin: 1rem 0.5rem 0.5rem 0.5rem ;
+}
+
+.three1{
+    display: flex;
+    margin-left: 12.5rem;
+}
+
+.places{
+    margin-bottom: 2rem;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border: 1px solid black;
+  height: 30px;
+  width: 100px;
+  border-radius: 0.5rem;
+  text-align: center;
+ padding: 15px 1px 0px 1px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 12.5rem 4rem 12.5rem;
+    
+}
+
+.footer{
+    padding-top: 0.1rem;
+background-color:rgb(248, 248, 248);
+height: 33rem;
+width: 100%;
+}
+
+.table{
+    width: 80%;
+    margin-top: 2rem;
+    margin-left: 12rem;
+    
+}
+
+.foot3{
+   color: rgb(105, 105, 105); 
+   text-decoration: none;
+   font-size: 0.9rem;
+}
+
+.foot4{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.hr{
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+.foot5{
+    text-align: left;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-bottom: 3rem;
+    color: rgb(79, 79, 79);
+    font-size: 0.8rem;
+    margin-top: 2.3rem;
+}
